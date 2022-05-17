@@ -25,6 +25,8 @@ jobs:
       - uses: actions/checkout@v3
         with:
             fetch-depth: 2
+            PATTERNS: |
+              +*/**/*.c
       - name: execute git diff
         run: 
           git diff -function-context HEAD^ HEAD > code_change.txt
