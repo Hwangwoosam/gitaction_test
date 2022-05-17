@@ -27,8 +27,8 @@ jobs:
             fetch-depth: 2
       - uses: technote-space/get-diff-action@v4
         with:
-            PATTERNS: |
-              +*/**/*.c
+            FILES: |
+              *.c
               
       - name: execute git diff
         run: 
