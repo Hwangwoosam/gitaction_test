@@ -25,26 +25,19 @@ jobs:
       - uses: actions/checkout@v3
         with:
             fetch-depth: 2
+      - uses: technote-space/get-diff-action@v4
+        with:
+            PATTERNS: |
+              +*/**/*.c
+              
       - name: execute git diff
-        run: git diff HEAD^ HEAD > code_change.txt
-        
-      - name: Upload result for job 1
-        uses: actions/upload-artifact@v1
-        with:
-          name: code_change
-          path: code_change.txt
-  job_2:
-    name: check text
-    needs: job_1
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      - name: Download result for job 1
-        uses: actions/download-artifact@v1
-        with:
-          name: code_change
-          
+        run: 
+          git diff --function-context HEAD^ HEAD > code_change.txt
+        if: env.GIT_DIFF
+      
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: cat code_change/code_change.txt
+        run: | 
+          cat code_change.txt
+          rm code_change.txt
+        if: env.GIT_DIFF
