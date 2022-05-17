@@ -26,8 +26,9 @@ jobs:
         with:
             fetch-depth: 2
       - name: execute git diff
-        run: git diff HEAD^ HEAD > code_change.txt
-        
+        run: 
+          git diff HEAD^ HEAD > code_change.txt
+          # cat code_change.txt
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: cat code_change/code_change.txt
+        run: cat code_change.txt
