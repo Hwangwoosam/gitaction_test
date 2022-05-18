@@ -28,8 +28,8 @@ jobs:
       - uses: technote-space/get-diff-action@v4
         with:
             FILES: |
-              *.c
-              
+              anywhere/*.c
+              anywhere/*/yml
       - name: execute git diff
         run: 
           git diff --function-context HEAD^ HEAD > code_change
