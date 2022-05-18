@@ -7,9 +7,10 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
+    paths:
+      - '**.c'
+      - '**.h'
+      
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -25,19 +26,16 @@ jobs:
       - uses: actions/checkout@v3
         with:
             fetch-depth: 2
+            
       - uses: technote-space/get-diff-action@v4
-        with:
-            FILES: |
-              anywhere/*.c
-              anywhere/*/yml
+            
       - name: execute git diff
         run: 
           git diff --function-context HEAD^ HEAD > code_change
-        if: env.GIT_DIFF
-      
+
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: | 
           cat code_change
           rm code_change
-        if: env.GIT_DIFF
+
