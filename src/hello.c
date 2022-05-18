@@ -10,7 +10,7 @@ void foo2(){
 }
 
 void foo3(){
-	printf("foo3\n");
+	printf("foo3-see\n");
 }
 int main(){
 
