@@ -40,6 +40,6 @@ jobs:
           rm code_change
       - name: Set AFL++
         run: |
-          git clone https://github.com/Hwangwoosam/AFLplusplus.git
-          cd AFLpulsplus
+          git clone https://github.com/Hwangwoosam/AFLplusplus.git AFLplusplus
+          cd AFLplusplus
           ls
