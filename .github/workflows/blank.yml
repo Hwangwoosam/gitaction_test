@@ -25,14 +25,13 @@ jobs:
       - uses: actions/checkout@v3
         with:
             fetch-depth: 2
-            FILES: |
-              +*.c
-              +*.py
-            files_ignore:
-              +*.yml
-              
+            
       - uses: technote-space/get-diff-action@v4
-
+        with:
+          FILES: |
+            *.c
+            *.py
+            
       - name: execute git diff
         run: 
           git diff --function-context HEAD^ HEAD > code_change
