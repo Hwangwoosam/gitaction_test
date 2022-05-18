@@ -28,8 +28,10 @@ jobs:
       - uses: technote-space/get-diff-action@v4
         with:
             FILES: |
-              *.c
-              *.py
+              +*.c
+              +*.py
+            files_ignore:
+              +*.yml
 
       - name: execute git diff
         run: 
