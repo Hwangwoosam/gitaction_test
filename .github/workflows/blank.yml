@@ -28,7 +28,8 @@ jobs:
       - uses: technote-space/get-diff-action@v4
         with:
             FILES: |
-              anywhere/*.c
+              +anywhere/*.c
+              +anywhere/*.py
 
       - name: execute git diff
         run: 
