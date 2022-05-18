@@ -6,7 +6,7 @@ void foo1(){
 }
 
 void foo2(){
-	printf("foo2\n");
+	printf("foo2-set\n");
 }
 
 void foo3(){
