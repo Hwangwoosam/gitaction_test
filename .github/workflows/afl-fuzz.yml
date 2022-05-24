@@ -37,4 +37,15 @@ jobs:
         run: |
           git clone https://github.com/AFLplusplus/AFLplusplus.git AFLplusplus
           cd AFLplusplus
-          make 
+          make
+          
+      - name: target compile
+        run: |
+          cd test/cJson
+          CC=../../AFLplusplus/afl-cc make
+      
+      - name: Run a afl-fuzz
+        run: |
+          python getFuncName.py ./code_change ./test/cJson/seed ./test/per_func_seed
+          cd new_seed_dir
+          ls
