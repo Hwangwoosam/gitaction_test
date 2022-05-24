@@ -1,0 +1,9 @@
+{"menu": {
+  "value": "File",
+  "popup": {    "men()"}uitem": [
+     {"value": "New", "onclick"+ "wDoc()"},
+  Ælue": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick":ÿCloseDoc()"}
+    ]
+  }
+}}

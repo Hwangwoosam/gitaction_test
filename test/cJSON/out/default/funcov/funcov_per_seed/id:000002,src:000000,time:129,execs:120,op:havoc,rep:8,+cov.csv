@@ -1,0 +1,4 @@
+)B[?25h[0m[1;91m
+[-]  SYSTEM ERROR : [0mread_sancov_result: execv out//default/funcov/sancov/fuzzer.18651.sancov[1;91m
+    Stop location : [0mread_sancov_result(), src/funcov.c:392
+[1;91m       OS message : [0mNo such file or directory
