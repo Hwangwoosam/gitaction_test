@@ -10,7 +10,7 @@
 void
 simple_parse_and_print (char * input)
 {
-    printf("pid: %d\n",getpid());
+    // printf("pid: %d\n",getpid());
     cJSON * parsed_input = cJSON_Parse(input) ;
     if (parsed_input == 0x0) {
         perror("simple_parse_and_print: cJSON_Parse failed") ;
