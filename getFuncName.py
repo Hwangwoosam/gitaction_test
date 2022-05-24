@@ -29,7 +29,7 @@ def extract_func_name(line):
     if '(' not in line or ')' not in line:
         return None
 
-    if line[0] == '#' or line[0\ =='/':
+    if line[0] == '#' or line[0] =='/':
         return None
 
     line = re.sub('\*',' ',line)
