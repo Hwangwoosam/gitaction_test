@@ -1,6 +1,7 @@
 import os
 import re
 import sys
+import shutil
 
 def is_valid_name(name):
     if re.match("[a-zA-Z_][a-zA-Z0-9]*",name) == None:
@@ -94,7 +95,7 @@ def get_seeds_for_local_mode(origin_seed_dir,per_func_seed_dir,changed_funcs):
         copied_seeds.append(os.path.join(new_seed_dir,name))
     
     for i in range(len(selected_seeds)):
-        shutill.copyfile(selected_seeds[i],copied_seeds[i])
+        shutil.copyfile(selected_seeds[i],copied_seeds[i])
     
     return new_seed_dir
 
