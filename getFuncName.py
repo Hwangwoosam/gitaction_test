@@ -101,14 +101,14 @@ path_for_per_func_seed_dir = os.path.realpath(sys.argv[3]);
                               
 file = open(path_for_codechange,'r')
                               
-func_name = set()
+func_names = set()
                               
 for line in file.readlines():
     func_name = extract_func_name(line)
     if func_name != None and func_name != "main":
-        func_name.add(func_name)
+        func_names.add(func_name)
                               
-test_seed_dir = get_seeds_for_local_mode(path_for_origin_seed,path_for_per_func_seed_dir,path_for_codechange)
+test_seed_dir = get_seeds_for_local_mode(path_for_origin_seed,path_for_per_func_seed_dir,func_names)
 print(test_seed_dir)
                           
 
