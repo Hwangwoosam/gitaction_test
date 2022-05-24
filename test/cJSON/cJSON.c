@@ -107,7 +107,8 @@ CJSON_PUBLIC(char *) cJSON_GetStringValue(const cJSON * const item)
 }
 
 CJSON_PUBLIC(double) cJSON_GetNumberValue(const cJSON * const item) 
-{
+{   
+    //test
     if (!cJSON_IsNumber(item)) 
     {
         return (double) NAN;
@@ -186,7 +187,8 @@ static void * CJSON_CDECL internal_realloc(void *pointer, size_t size)
 static internal_hooks global_hooks = { internal_malloc, internal_free, internal_realloc };
 
 static unsigned char* cJSON_strdup(const unsigned char* string, const internal_hooks * const hooks)
-{
+{   
+    //test
     size_t length = 0;
     unsigned char *copy = NULL;
 
@@ -252,6 +254,7 @@ static cJSON *cJSON_New_Item(const internal_hooks * const hooks)
 /* Delete a cJSON structure. */
 CJSON_PUBLIC(void) cJSON_Delete(cJSON *item)
 {
+    //test
     cJSON *next = NULL;
     while (item != NULL)
     {
