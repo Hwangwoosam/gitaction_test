@@ -1,0 +1,10 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "Zopup": {
+    "menuitem": [
+      {"value": "New",     {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}

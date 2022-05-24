@@ -1,0 +1,10 @@
+{"menu": {
+  "id": "file		"GlossSeeAlso"ile",
+  "popup": {
+   ÿÿÿnuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}

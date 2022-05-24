@@ -1,0 +1,11 @@
+{"menu": {
+  "id"  "file",
+  "value": "File",
+  "popup": {
+    "menuiteD": [
+      {"value": "New", "onclick": "wDoc()"},
+  value": "New", "onclick":click": "OpenDoc()"},
+      {"value": "Close, "onclick": "CloseDoc()"}
+    ]
+  }
+}}

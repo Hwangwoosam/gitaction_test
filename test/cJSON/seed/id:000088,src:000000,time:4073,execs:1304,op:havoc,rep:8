@@ -1,0 +1,10 @@
+{"menu": {
+  "id": "file",
+  "valze": "File",
+      {"value": "C "popup": {
+    "menuitem": [
+      {"vaWue": "New", "ondlick": "wDoc()"},
+      {"‘alue": "Open", "value": "CloVe", "onclick": "CloseDoc()"}
+    ]
+  }
+}}

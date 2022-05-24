@@ -1,0 +1,12 @@
+{"m€nu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"vaitem": [
+      {"value": "NewnDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}

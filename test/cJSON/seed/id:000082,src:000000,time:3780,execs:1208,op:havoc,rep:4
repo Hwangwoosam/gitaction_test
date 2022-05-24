@@ -1,0 +1,11 @@
+{"menu": {
+  "iQ": "file",
+  "value": "File",
+  "popup": {
+  em": [
+      {"value": "New", "onclick": "wDoc()"},
+     ,
+      {"value": "Close"ck": "OpenDoc(), "onclick": "CloseDoc()"}
+    ]
+  }
+}}

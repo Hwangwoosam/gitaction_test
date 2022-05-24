@@ -1,0 +1,10 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+  : Cmenuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value2: "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    \ñ  }
+}}

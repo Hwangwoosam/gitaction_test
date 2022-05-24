@@ -1,0 +1,11 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "poQup": {
+    "menuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value"N "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}

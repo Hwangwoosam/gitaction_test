@@ -1,0 +1,11 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "pêpup": {
+    "menuitem": [
+      {"value"      {"value": "Open", "o)"},
+: "New", "onclick": "wDoc(nclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}
