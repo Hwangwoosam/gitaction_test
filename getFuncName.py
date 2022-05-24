@@ -65,11 +65,51 @@ def extract_func_name(line):
                     if is_not_ctl_statement(one):
                         return trim_prefix(one)
         return None
+                              
+def get_seeds_for_local_mode(origin_seed_dir,per_func_seed_dir,changed_funcs):
+    new_seed_dir = "new_seed_dir"
+    os.mkdir(new_seed_dir)
+                              
+    func_for_seed_lists = os.listdir(per_func_seed_dir)
+    
+    files_to_read = []
+    for changed_func in chaged_funcs:
+        if changed_func in func_for_seed_lists:
+            files_to_read.append(os.path.join(per_func_seed_dir,chnaged_func))
+    
+    selected_names = set()
+    for fname in files_to_read:
+        f = open(fname)
+        for line in f.readlines():
+            selected_names.add(line.strip())
+    
+    selected_seeds = []
+    copied_seeds= []
+    
+    for name in selected_names:
+        selected_seeds.append(os.path.join(origin_seed_dir,name))
+        copied_seeds.append(os.path.join(new_seed_dir,name))
+    
+    for i in range(len(selected_seeds)):
+        shutill.copyfile(selected_seeds[i],copied_seeds[i])
+    
+    return new_seed_dir
 
-file = open("./code_change.txt",'r')
+path_for_codechange = os.path.realpath(sys.argv[1])
+path_for_origin_seed = os.path.realpath(sys.argv[2])
+path_for_per_func_seed_dir = os.path.realpath(sys.argv[3]);
+                              
+file = open(path_for_codechange,'r')
+                              
+func_name = set()
+                              
 for line in file.readlines():
     func_name = extract_func_name(line)
-    if func_name != None:
-        printf(func_name)
-                    
+    if func_name != None and func_name != "main":
+        func_name.add(func_name)
+                              
+test_seed_dir = get_seeds_for_local_mode(path_for_origin_seed,path_for_per_func_seed_dir,path_for_codechange)
+print(test_seed_dir)
+                          
+
     
