@@ -106,6 +106,7 @@ func_names = set()
 for line in file.readlines():
     func_name = extract_func_name(line)
     if func_name != None and func_name != "main":
+        print(func_name)
         func_names.add(func_name)
                               
 test_seed_dir = get_seeds_for_local_mode(path_for_origin_seed,path_for_per_func_seed_dir,func_names)
