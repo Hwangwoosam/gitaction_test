@@ -1,0 +1,8 @@
+id:000076,src:000000,time:3433,execs:1066,op:havoc,rep:2,+cov.csv
+id:000084,src:000000,time:3873,execs:1235,op:havoc,rep:16.csv
+id:000120,src:000000,time:5906,execs:2106,op:havoc,rep:16,+cov.csv
+id:000108,src:000000,time:5202,execs:1793,op:havoc,rep:2,+cov.csv
+id:000064,src:000000,time:2852,execs:876,op:havoc,rep:2.csv
+id:000081,src:000000,time:3736,execs:1199,op:havoc,rep:4.csv
+id:000122,src:000000,time:6001,execs:2131,op:havoc,rep:2.csv
+id:000123,src:000000,time:6053,execs:2145,op:havoc,rep:2,+cov.csv
