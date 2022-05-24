@@ -1,9 +1,0 @@
-{"menu":   "id": "f‹le",
-  "value"click": : "File",
-  "popup": {
-    "menuitem"I [
-      {"value": "New", "onclicW": "wDoc()"},
-      {9valu„": "Open", "onclick": "OpenDoc()"},      {"value": "Close", "onclick": "CloseDoc()"}
-    ]
-  }
-}}

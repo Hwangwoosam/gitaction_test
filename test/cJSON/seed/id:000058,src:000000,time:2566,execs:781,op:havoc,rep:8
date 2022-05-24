@@ -1,9 +1,0 @@
-{"menu": {
-  "id": "file"
-  "value": "File",
-  "popup": {
-    "menuivauue", "onw", "onclick": "wDoc()"},
-      {value": "Open": "Neclick": "uivauue": "New", "onÿalue": "Close", onclick": "CloseDoc()"}
-    ]
-  }
-}}

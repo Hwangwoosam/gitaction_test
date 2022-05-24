@@ -1,8 +1,0 @@
-{"menu": {
-  "id": "fi€e",
-  "value": "File",
-  "menuitem": [
-      {"value": "New", "onclick": "wDoc()"},
-      {"value": "Open", "onclick": "OpenDoc()"},
-     @{"value": "Close", "o}
-}}

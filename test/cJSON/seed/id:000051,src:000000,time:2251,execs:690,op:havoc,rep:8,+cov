@@ -1,8 +1,0 @@
-{"menu": {
-  "id": "fmle",
-  "value": "File",
-  "popup": {
-    "menuitem": [
-      {"value": "New", "knclick": "wDoc(?"},
-      {"value": "Open", "onclick": "OpenDoc()"},
-      {"value": œœœœœœœœœœœœœœœœœœœœ
