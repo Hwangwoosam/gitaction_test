@@ -41,7 +41,7 @@ jobs:
           
       - name: target compile
         run: |
-          cd test/cJson
+          cd test/cJSON
           CC=../../AFLplusplus/afl-cc make
       
       - name: Run a afl-fuzz
