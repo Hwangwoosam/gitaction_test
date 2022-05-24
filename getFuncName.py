@@ -77,7 +77,7 @@ def get_seeds_for_local_mode(origin_seed_dir,per_func_seed_dir,changed_funcs):
     for changed_func in changed_funcs:
         if changed_func in func_for_seed_lists:
             print("func: " + changed_func)
-            files_to_read.append(os.path.join(per_func_seed_dir,chnaged_func))
+            files_to_read.append(os.path.join(per_func_seed_dir,changed_func))
     
     selected_names = set()
     for fname in files_to_read:
