@@ -72,7 +72,6 @@ def get_seeds_for_local_mode(origin_seed_dir,per_func_seed_dir,changed_funcs):
     os.mkdir(new_seed_dir)
                               
     func_for_seed_lists = os.listdir(per_func_seed_dir)
-    print(func_for_seed_lists)
     
     files_to_read = []
     for changed_func in changed_funcs:

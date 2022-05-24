@@ -47,5 +47,3 @@ jobs:
       - name: Run a afl-fuzz
         run: |
           python getFuncName.py ./code_change ./test/cJSON/seed ./test/per_func_seed
-          cd new_seed_dir
-          ls
