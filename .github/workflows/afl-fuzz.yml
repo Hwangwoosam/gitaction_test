@@ -37,4 +37,13 @@ jobs:
         run: |
           git clone https://github.com/AFLplusplus/AFLplusplus.git AFLplusplus
           cd AFLplusplus
-          make 
+          make
+          
+      - name: target compile
+        run: |
+          cd test/cJson
+          CC=../../AFLplusplus/afl-cc make
+      
+      - name: Run a afl-fuzz
+        run: |
+          cd test/cJson
