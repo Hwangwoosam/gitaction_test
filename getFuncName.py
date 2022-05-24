@@ -84,7 +84,6 @@ def get_seeds_for_local_mode(origin_seed_dir,per_func_seed_dir,changed_funcs):
     for fname in files_to_read:
         f = open(fname)
         for line in f.readlines():
-            print("line: "+line)
             selected_names.add(line.strip())
     
     selected_seeds = []
