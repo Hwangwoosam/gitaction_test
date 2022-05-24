@@ -240,7 +240,7 @@ CJSON_PUBLIC(void) cJSON_InitHooks(cJSON_Hooks* hooks)
 /* Internal constructor. */
 static cJSON *cJSON_New_Item(const internal_hooks * const hooks)
 {   
-    //code change test222
+    char test[] = "test1";
     cJSON* node = (cJSON*)hooks->allocate(sizeof(cJSON));
     if (node)
     {
@@ -305,7 +305,7 @@ typedef struct
 /* Parse the input text to generate a number, and populate the result into item. */
 static cJSON_bool parse_number(cJSON * const item, parse_buffer * const input_buffer)
 {   
-    //code change test111
+    char test[] = "test2";
     double number = 0;
     unsigned char *after_end = NULL;
     unsigned char number_c_string[64];
