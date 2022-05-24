@@ -1,0 +1,21 @@
+{
+    "glossary": {
+        "title": "e",
+		"GlossDiv": {
+           "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                  		"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abcrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, qsed to create mar33333333333333333h as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+   :                },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
