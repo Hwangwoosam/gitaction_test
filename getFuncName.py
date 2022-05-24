@@ -51,7 +51,7 @@ def extract_func_name(line):
             if '(' in line_split[index]:
                 if is_not_ctl_statement(line_split[index-1]):
                     return trim_prefix(line_split[index - 1])
-                else
+                else:
                     return None
     else:
         line = re.sub('\(',' ',line)
