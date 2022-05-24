@@ -1,0 +1,12 @@
+callee
+parse_object
+cJSON_Delete
+cJSON_ParseWithOpts
+cJSON_Parse
+parse_value
+simple_parse_and_print
+parse_string
+skip_utf8_bom
+cJSON_New_Item
+cJSON_ParseWithLengthOpts
+buffer_skip_whitespace
