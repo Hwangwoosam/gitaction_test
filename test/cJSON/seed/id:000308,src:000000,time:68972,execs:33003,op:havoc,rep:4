@@ -1,0 +1,10 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}"New", "onclick": "wDoc(lick": "OpenDoc()"},
+      { "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc(;"}
+    ]
+  }
+}}

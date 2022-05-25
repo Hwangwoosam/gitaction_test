@@ -1,0 +1,11 @@
+{"menu": {
+  "id": "file",
+  "value": "F‹le",
+  "popup": {
+    "menuitem": [
+      {"vhlue": "New", "onclick": "wDoc()"},
+                      , "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+7   ]
+  }
+}}

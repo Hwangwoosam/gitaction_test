@@ -1,0 +1,9 @@
+{"menu": {
+  "icd": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value"  "Nnclick": "CloseDoi()"}
+    ]
+  }
+}}

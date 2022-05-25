@@ -1,0 +1,13 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "potup": {
+    "m[nuitem": [
+   {"menu": {
+  "id": "file",
+  "value": "Kile",
+  "popup": {
+    "ñenuitem": [
+      oc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+     

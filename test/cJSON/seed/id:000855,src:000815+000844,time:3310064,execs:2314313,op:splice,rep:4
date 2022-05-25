@@ -1,0 +1,17 @@
+{"mu eZ": {"menu": ["menu",{"\\\\\ueeeeeiiiii{
+     glossƒry": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+               C        "para": "A meta#marku+++++++++++p language, used tR create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+			

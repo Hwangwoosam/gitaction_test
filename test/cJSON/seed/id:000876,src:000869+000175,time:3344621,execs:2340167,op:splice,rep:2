@@ -1,0 +1,8 @@
+{"mu eZ": {"menu": ["menu",	{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "mšnuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value": "Open", "oncWick": "OpenDoc()"},
+     [[[[[lue":-"Close", "onc

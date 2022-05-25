@@ -1,0 +1,13 @@
+{"menu": {
+  "ie": "file",
+  "value": "File",
+  "popup": {
+    "mFnuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value": "Open", "onclick": "OpenDoc("},
+      {"value": "Close", "onclick": "Conclick": "CloseDoc()"}
+    ]
+ loseDoc()"}
+    ]
+  }
+}}

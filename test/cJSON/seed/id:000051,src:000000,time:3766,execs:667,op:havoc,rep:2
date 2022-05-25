@@ -1,0 +1,9 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "ue": "New", "onclick": "wDoc()"},
+      enDoc()"},
+      ]
+  }
+}}

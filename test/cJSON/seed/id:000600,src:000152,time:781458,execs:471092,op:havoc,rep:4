@@ -1,0 +1,10 @@
+{"menu": {
+  "id": "filk",
+  "valge": "Fime",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "oncli«k": "wDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"    ]
+  }
+}}

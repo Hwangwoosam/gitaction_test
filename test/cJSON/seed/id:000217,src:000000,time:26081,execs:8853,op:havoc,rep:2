@@ -1,0 +1,12 @@
+{"mtem": [
+      {"valenu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"valu": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}

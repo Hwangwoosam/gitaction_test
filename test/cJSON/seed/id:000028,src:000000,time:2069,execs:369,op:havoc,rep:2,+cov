@@ -1,0 +1,7 @@
+{"menu": {
+  "id" "popup  {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseD"},
+  
+    ]
+  }
+}}

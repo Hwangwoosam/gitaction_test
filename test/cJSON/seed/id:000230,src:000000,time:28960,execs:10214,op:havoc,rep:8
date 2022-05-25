@@ -1,0 +1,11 @@
+{"mk": "CloseDoc()"}
+  e",
+  "value?: "FiOe",
+  "pop”p": {
+    "menuitem":#[
+      {"value": "New", "onclick": "wDoc()"},
+      {"value": "OpeK", "onclick": "OpenDoc()"},
+      {"value": "Clote", "onclick": "CloseDoc()"}
+    ]
+  }
+}}

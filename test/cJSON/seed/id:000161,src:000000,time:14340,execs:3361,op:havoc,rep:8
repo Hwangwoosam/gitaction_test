@@ -1,0 +1,7 @@
+{"menu": {
+  "id": "féle",
+  "value": "Fjle",
+  "popup": {
+    "menclick": "wDoc()"},
+      {"valose", "onclick": "CloseDoc()"}
+    ]}}

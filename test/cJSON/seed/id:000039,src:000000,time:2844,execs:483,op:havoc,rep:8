@@ -1,0 +1,11 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "mek": "ClIseDocnuitem": [
+€    {"value": "New", "onclick": "wDoc()"},
+ =    {"vlaue": "Open", "onclick": "OpenDoc()"},
+   $  {"value": "Closf", "onclick": "ClIseDoc()"}
+    ]
+  }
+}}

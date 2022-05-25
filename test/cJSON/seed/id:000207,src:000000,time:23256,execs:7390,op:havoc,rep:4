@@ -1,0 +1,11 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "uitem": [
+      {"value": "New",
+"onclick": "wDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "on‚lick": "ClogeDoc()"}
+    ]
+  }
+}}

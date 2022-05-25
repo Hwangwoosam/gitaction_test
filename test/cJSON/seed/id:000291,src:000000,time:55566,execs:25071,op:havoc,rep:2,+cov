@@ -1,0 +1,10 @@
+{"menu": {
+  "id": 6666666666666666666666le",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+@   ]
+  }
+}}

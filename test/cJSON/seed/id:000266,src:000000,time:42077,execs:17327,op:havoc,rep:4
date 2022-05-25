@@ -1,0 +1,11 @@
+{"meou": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value": "Open", "onclick": "OpenDo@()"},
+      {"value": "Close", "oncl": "CloseDoc()"}
+    ]
+  }
+}}

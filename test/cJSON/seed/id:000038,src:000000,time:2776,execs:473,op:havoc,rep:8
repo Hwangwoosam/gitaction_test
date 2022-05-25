@@ -1,0 +1,11 @@
+{"menu": {
+  "id": "f|le",
+  "value": "File",
+  "popup": {
+    "meuitem": |
+      {"value": "New", "onclick": "wDoc()#},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": 8Close", "onclick": "CmoseDoc()"}
+  ÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷  ]
+  
+}}

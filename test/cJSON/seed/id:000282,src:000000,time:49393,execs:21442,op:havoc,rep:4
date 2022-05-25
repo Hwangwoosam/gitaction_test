@@ -1,0 +1,13 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "[opup": {
+    "menuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value": "Open", "onclick": {
+    "zenuitem": [
+    "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}

@@ -1,0 +1,8 @@
+{"menu":  "val
+  "id: "File",
+  !    {"value": #New", "onPlick"},
+     {"value": "Open", "onclick"ÿÿÿk"OpenDos()"},
+      {"value": "Closec()"}
+ !  ]
+  }
+}}

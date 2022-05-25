@@ -1,0 +1,10 @@
+{"m "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitemloseue": "Close", "onclick": "C : [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+ ", "[[[[[][[[[[[[[[[[[[[[onclick": "CloseDoc()"}
+    ]
+! }
+}}

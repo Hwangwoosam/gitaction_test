@@ -1,0 +1,42 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclica": "wDoc()"},
+      {"value
+
+
+
+
+
+
+
+
+*,
+
+
+
+
+
+
+
+
+
+
+": "Ooc()"},
+      {"value
+
+
+
+
+
+
+
+
+
+_en", "onclick": "OpenDoc()"¯,
+      {"value": "Close", "onclick": "CloseDoc(9"}
+    ]
+  }
+}}

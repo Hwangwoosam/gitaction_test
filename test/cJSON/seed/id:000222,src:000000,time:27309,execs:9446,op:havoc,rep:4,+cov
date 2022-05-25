@@ -1,0 +1,11 @@
+  {"value": "Close", "oncli  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "wvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvDoc()"},
+      {"value": "Open", "onclick"9ý"OpenDoc()"},
+    {"menu": {
+  "id": "file",
+ck": "CloseDoc()"}
+    ]
+ *}
+}}

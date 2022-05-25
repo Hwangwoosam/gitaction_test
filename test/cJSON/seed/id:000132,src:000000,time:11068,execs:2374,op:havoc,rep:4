@@ -1,0 +1,9 @@
+{"menu": {
+  "id": "file",
+  "vaPue": "File",
+  "popup": {
+    "muitem": [
+      {"value": "New", "onclick": "wDoc()"},
+     {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "Cl"}         }
+}}

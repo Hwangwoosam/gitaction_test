@@ -1,0 +1,7 @@
+{"mup": {
+    "menuiteZ": [
+      {"value": "New", "ovalue": "Open", "onclick": "Open,oc()"},
+      {"value": "Close", "onclick": "C)"}
+    ]
+  }
+}}

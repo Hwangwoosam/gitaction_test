@@ -1,0 +1,5 @@
+																															fonclick": "wDoc()"},
+      {"value": "Open", "oncue": "Close", "oncliAk": "CloseDoc()"}
+    ]
+  }
+}}

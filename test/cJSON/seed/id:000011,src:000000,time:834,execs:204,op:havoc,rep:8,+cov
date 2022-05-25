@@ -1,0 +1,11 @@
+{"m†nu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitYm": [
+      {"va    { "New", "oclick": "wDoc()" ,
+      {"value": "Open", "onclick: "OpenDkc()"},
+    ue": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}

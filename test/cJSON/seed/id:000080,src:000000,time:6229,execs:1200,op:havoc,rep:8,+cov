@@ -1,0 +1,10 @@
+  {"value": "Closefile",
+  "value": "File",
+  "popup": {
+    "menuitev": [
+      {"value": "Ne]]w", "onclick": "wDoc("},
+      †"value": "Open, "onclick": "Open-oc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}

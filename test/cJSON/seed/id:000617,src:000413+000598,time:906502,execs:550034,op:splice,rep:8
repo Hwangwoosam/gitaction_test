@@ -1,0 +1,10 @@
+{"menu": {
+  "id": "file",
+  "valge": "Fi""Zle",  "popup": {
+    "menuitem": [
+      {"value": "New","onclicå": "wDoc()"},
+     {"value": "Open", "onclick": "O    {"value": "Opennclick": "wDocË"},
+          {"value": "Close", "onclick": "CloseDtc()"}
+    ]
+  }
+}}

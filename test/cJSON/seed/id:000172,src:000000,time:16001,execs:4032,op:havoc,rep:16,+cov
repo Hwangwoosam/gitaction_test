@@ -1,0 +1,9 @@
+{"menu": {
+  "id":
+  "popup": {
+  % "menuitem": [
+      {"vMlue"0 --, {    
+ "value": "()"}-----New , "onclick": "wDocOpen"    {"vMlu": "OpYDoc()value": "Close", "oncliCk": "CloseDoc()"}
+    ]
+  }
+}}

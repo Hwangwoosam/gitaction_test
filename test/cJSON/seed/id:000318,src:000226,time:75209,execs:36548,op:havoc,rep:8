@@ -1,0 +1,9 @@
+																													¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨"File",
+  "popup": {
+    "menuite›": [
+      {"value": "New", "onclick"X "wDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"valuz": Close", "oncliAk": "CljseDoc()"}
+    ]
+  }
+}}

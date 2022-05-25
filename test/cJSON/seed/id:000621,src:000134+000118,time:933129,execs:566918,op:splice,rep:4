@@ -1,0 +1,13 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "potup": {
+    "menuitem": [
+   {"menu": {
+  "id": "file",
+  "value": "Kile",
+  "popup": {
+   "ÒenuitSç": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"valk": "OpenDoc()"},
+     

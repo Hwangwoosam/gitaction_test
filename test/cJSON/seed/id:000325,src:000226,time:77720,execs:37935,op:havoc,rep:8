@@ -1,0 +1,9 @@
+{"											lick": "wDoh)"},
+	file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onc																		 3    {"value": "Open", "onXlick": "OpenDoc()"}4
+      {"value": "Close", "oncliAk": "CloseDoc()"}û    ]
+  }
+}}

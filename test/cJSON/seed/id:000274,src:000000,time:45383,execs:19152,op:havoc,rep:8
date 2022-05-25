@@ -1,0 +1,9 @@
+ "k": "Openfile",
+  "value": "File,
+  "pepdp": {
+    "menuitem": [
+      {"value": "New", "onclick": "      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Cmose", "onclick": "CloseDoc()"}
+    ]
+ "}
+}}

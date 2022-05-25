@@ -1,0 +1,12 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+     ]
+ „alue": "New", "onclick": "wDoc()"},
+      {"valWe": 0Open", "onclick": "npenDoc()"},
+      {"value": "Close", "onclQck": "CloseDoc()"}
+    ]: "Clos)", "onclQck": 
+  }
+}}

@@ -1,0 +1,8 @@
+{"menu": {
+  "|l": "file",
+  "value": "File"
+  "popu{"vue": ÛNew", "nclick": "wDoc()"},
+      {"value": "Open", "oDclick": @OpenDnc()"},Š   ÿ {"value":  "wDo"Close", "oNclick": "CloseDoc()"}
+    ]
+  }
+}}

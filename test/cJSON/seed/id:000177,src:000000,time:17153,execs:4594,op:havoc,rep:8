@@ -1,0 +1,10 @@
+{"menu": {
+  "id": "file",
+  "valp": {
+    "menuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+     ", "onclick": "Cl c"value": "!¢¢¢¢¢¢¢¢¢¢¢¢¢¢k": "ClooÿDoc()"}
+    ]
+  }
+}}

@@ -1,0 +1,7 @@
+{"menu" {
+  "id,
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}

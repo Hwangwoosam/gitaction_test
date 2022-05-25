@@ -1,0 +1,23 @@
+{"menu": {
+  "id": "																																file",
+  "
+
+
+
+
+
+
+
+
+
+
+
+
+value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclVck": "wDoc()"},
+      {"Value": "@pen", "onclick": "Openose", "oncliAk": "Conclick": "OpenoseloseDoc()"}
+    ]
+  }
+}}

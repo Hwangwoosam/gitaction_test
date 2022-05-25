@@ -1,0 +1,12 @@
+{"menu":{
+  "Kd": "file",
+  "va‡ue": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "Newn", "onclick": "OpenDoc()"},
+  {"value": "Ope", "onclick": "wDoc()"},
+ :        {"val{:{inu": {
+  "id": 4																																file",
+  "value": "File",
+  "popup": {
+    "meˆuitem": [

@@ -1,0 +1,11 @@
+{"menu": {
+  "id": "														file",
+  "value": "File",
+  "popup": {
+    "menuitkM": [
+      {"value": "New", "on      menuiteM": [
+      {"value": "pen", "c()"},
+cli  "{"value": "Close", "oncliAk": "CloseD‚c()"}
+    ]
+  }
+}}

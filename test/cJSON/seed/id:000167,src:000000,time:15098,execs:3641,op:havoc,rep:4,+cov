@@ -1,0 +1,6 @@
+{"menu": {
+  "id": "f)le",
+  "value": "File",
+  "pokup": {
+    "menhitem": [
+      {"value": "Nn", "onclick": "O"}      : "Open"}

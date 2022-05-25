@@ -1,0 +1,14 @@
+{"menu": {
+  "id": 
+file",
+  "vaﬁue":@"File",
+  "popup": {
+    "menuitem": [
+      {"value": "+ew", "onclick": "wDoc()"},
+   "Opmenu": {
+  "id": "file!,
+ "vaenDoc()"},
+      {-valuà": "Close", "oOclick": "CloseDof()"l
+    ]
+  }
+}}

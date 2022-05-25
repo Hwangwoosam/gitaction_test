@@ -1,0 +1,9 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menditem": [
+      {"value": "New"e", "onclicc()"}
+    ]
+  }
+}}

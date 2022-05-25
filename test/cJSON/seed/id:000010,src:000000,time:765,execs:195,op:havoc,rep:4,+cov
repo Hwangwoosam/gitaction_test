@@ -1,0 +1,10 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    " enuitem": [
+      {"value": "New", "onclick": "wDocalue": "Open", "onclick": "OpeDoc()"}
+    ]enDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }*}}

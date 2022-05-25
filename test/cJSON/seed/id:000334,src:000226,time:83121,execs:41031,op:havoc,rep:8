@@ -1,0 +1,9 @@
+{"menu "																																												file",
+  "value": "File",
+  "popup"oc()"},
+   nuitem": [
+      {"valud": "New",6"o€click": "wDoc( "OpenDoc()"},
+lue": "Open", "oalue": Close", "oncliAk": "CloseDoc()"}
+    ]
+  }
+}}

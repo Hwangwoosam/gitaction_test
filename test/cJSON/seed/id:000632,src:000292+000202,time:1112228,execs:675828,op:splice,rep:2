@@ -1,0 +1,12 @@
+{"menu": {
+  "id":  "file",
+  "v":  "file",
+  "value": "File",
+ "popup": {
+    "menuitem{"meu": {
+  "id": "file",
+  "value": "Ffle",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      i"value": "Open", "onclick": "Ope

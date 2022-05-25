@@ -1,0 +1,10 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"valhe": "New", "onclick": "ŽDoc()"},
+      {"value": "Opeo", "onclick": "OpenDocd)"},
+      {"value":"onclick"  "Cl
+  }
+}}

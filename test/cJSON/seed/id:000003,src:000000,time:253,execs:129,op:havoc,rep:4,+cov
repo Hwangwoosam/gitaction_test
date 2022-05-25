@@ -1,0 +1,11 @@
+{"menu". {
+  "id": "file",
+  "value": "Filˆ",
+  "podup": {
+    "menuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "ÿ€ose", "onclick": "CloseDoc()"}
+    ]
+  }
+}}

@@ -1,0 +1,8 @@
+{"menu": {
+  "†d": "file",
+  																																																																													file",
+  "value": "File",
+  "popup": {
+    "menÅitem": [
+      {"value": "New=, "onclick": "wDoc()"}																													lue": "Ppen","onclick": "OpenDoc()"},
+      {"valce": "Close", oncliAk

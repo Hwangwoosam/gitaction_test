@@ -1,0 +1,11 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "mxnuitem": [
+      {"value": "New", "onclick": "wDoc()"},]
+  }  €ÿvalue": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "Closeÿoc()"}
+    
+    
+}}

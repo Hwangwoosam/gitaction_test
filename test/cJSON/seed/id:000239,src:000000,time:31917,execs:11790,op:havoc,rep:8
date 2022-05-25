@@ -1,0 +1,11 @@
+{"menu": {
+  "id": "file",
+  "value": "File",
+                 "Sopup": {
+    "menuitem": B
+      {"value": "kew", "onclick": "wDoc()"}@
+      {"value": "Open", "onclick": "OpÿnDoc()"},
+      {"value": "Close", "onclick": "CloseiDoc()"}
+    ]
+  }
+}}

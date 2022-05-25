@@ -1,0 +1,9 @@
+{"menu": {
+  "id": "fxle",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "wDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+  "Close", "onclick":
+}}
