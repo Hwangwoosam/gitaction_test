@@ -52,7 +52,7 @@ def main () :
     per_func_seed_dir = os.path.realpath(args.p)
     print(wkdir_path + " " + aflpp_path + " " + executable_name + " " + per_func_seed_dir)
 
-    os.chdir(wkdir_path)
+#     os.chdir(wkdir_path)
 
     return_code = execute_aflpp(aflpp_path,executable_name,per_func_seed_dir,False)
     print("RETURN CODE = " , return_code,type(return_code))
