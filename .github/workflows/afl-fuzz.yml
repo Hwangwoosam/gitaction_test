@@ -51,5 +51,7 @@ jobs:
       
       - name: run AFL++
         run: |
-           AFL_SKIP_CPUFREQ=1 AFL_I_DONT_CARE_ABOUT_MISSING_CRASHES =1 ./AFLplusplus/afl-fuzz -i new_seed_dir -o local_mode ./test/cJSON/cJSON_example
+           export AFL_SKIP_CPUFREQ=1 
+           export AFL_I_DONT_CARE_ABOUT_MISSING_CRASHES=1 
+           ./AFLplusplus/afl-fuzz -i new_seed_dir -o local_mode ./test/cJSON/cJSON_example
 #          python script.py -w ./test/cJSON -a ./AFLplusplus -x ./test/cJSON/cJSON_example -p ./new_seed_dir
