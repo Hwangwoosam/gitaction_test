@@ -50,4 +50,4 @@ jobs:
       
       - name: run AFL++
         run:
-          python script.py -w ./test/cJSON -a ./AFLplusplus -x ./test/cJSON/cJSON_example -p ./new_seed_dir
+          python script.py -w ./test/cJSON -a ../../AFLplusplus -x ./cJSON_example -p ../../new_seed_dir
