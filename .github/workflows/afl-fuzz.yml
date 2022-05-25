@@ -49,5 +49,8 @@ jobs:
           python getFuncName.py ./code_change ./test/cJSON/seed ./test/per_func_seed
       
       - name: run AFL++
-        run:
-          python script.py -w ./test/cJSON -a ../../AFLplusplus -x ./cJSON_example -p ../../new_seed_dir
+        run: |
+          cd ./test/cJSON
+          ls
+          cd ../..
+          python script.py -w ./test/cJSON -a ../AFLplusplus -x ./cJSON_example -p ../new_seed_dir
