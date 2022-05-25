@@ -7,7 +7,6 @@ import shutil
 import argparse
 import subprocess
 from threading import Timer
-import fuzzUtils as utils
 
 def execute_aflpp(aflpp_path,executable_name,local_seeddir_path,file_mode):
   
