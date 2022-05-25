@@ -1130,7 +1130,6 @@ CJSON_PUBLIC(cJSON *) cJSON_ParseWithLengthOpts(const char *value, size_t buffer
             goto fail;
         }
     }
-    //test2
     if (return_parse_end)
     {
         *return_parse_end = (const char*)buffer_at_offset(&buffer);
@@ -1166,7 +1165,7 @@ fail:
 
         global_error = local_error;
     }
-
+    //test2
     return NULL;
 }
 
