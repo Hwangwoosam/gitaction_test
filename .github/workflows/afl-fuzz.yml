@@ -39,7 +39,7 @@ jobs:
             
       - name: execute git diff
         run: 
-          git diff HEAD^ HEAD > code_change
+          git diff --HEAD^ HEAD > code_change
 
       - name: Set AFL++
         run: |
