@@ -12,7 +12,6 @@ def execute_aflpp(aflpp_path,executable_name,local_seeddir_path,file_mode):
 
     afl_fuzz_path = aflpp_path + "/afl-fuzz"
     cmd = [afl_fuzz_path,"-i",local_seeddir_path,"-o","local_out",executable_name]
-    print(cmd)
     if file_mode == True:
       cmd.append("@@")
 
@@ -29,7 +28,7 @@ def execute_aflpp(aflpp_path,executable_name,local_seeddir_path,file_mode):
         finally:
           timer.cancel()
       else:
-        proc = subproess.Popen(cmd, env=env_var,stderr=PIPE,stdout=PIPE)
+        proc = subproess.Popen(cmd, env=env_var)
         try:
           proc.wait(timeout=5)
         except subprocess.TimeoutExpired:
