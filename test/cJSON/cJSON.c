@@ -1077,7 +1077,7 @@ static parse_buffer *skip_utf8_bom(parse_buffer * const buffer)
 CJSON_PUBLIC(cJSON *) cJSON_ParseWithOpts(const char *value, const char **return_parse_end, cJSON_bool require_null_terminated)
 {
     size_t buffer_length;
-
+    //test1
     if (NULL == value)
     {
         return NULL;
@@ -1165,7 +1165,6 @@ fail:
 
         global_error = local_error;
     }
-    //test2
     return NULL;
 }
 
