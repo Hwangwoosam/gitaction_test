@@ -50,6 +50,10 @@ def main () :
     aflpp_path = args.a
     executable_name = args.x
     per_func_seed_dir = args.p
+    print(wkdir_path)
+    print(aflpp_path)
+    print(executable_name)
+    print(per_func_seed_dir)
     
 #    os.chdir(wkdir_path)
 
