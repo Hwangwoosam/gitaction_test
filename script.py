@@ -56,7 +56,7 @@ def main () :
   return_code = execute_aflpp(aflpp_path,executable_name,per_func_seed_dir,False)
   print("RETURN CODE = " , return_code,type(return_code))
   
-  if __name__ == "__main__"
+  if __name__ == "__main__":
     main()
   
   
