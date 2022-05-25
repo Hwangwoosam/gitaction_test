@@ -30,7 +30,7 @@ def execute_aflpp(aflpp_path,executable_name,local_seeddir_path,file_mode):
     else:
        proc = subprocess.Popen(cmd, env=env_var)
        try:
-         proc.wait(timeout=5)
+         proc.wait(timeout=500)
        except subprocess.TimeoutExpired:
          proc.kill()
 
