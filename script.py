@@ -37,26 +37,25 @@ def execute_aflpp(aflpp_path,executable_name,local_seeddir_path,file_mode):
     return proc.returncode
  
 def main () :
-  parser = argparse.ArgumentParser()
-  parser.add_argument("-w",help="path of working dir",required=True)
-  parser.add_argument("-a",help="path of afl++",required=True)
-  parser.add_argument("-x",help="name of executable",required=True)
-  parser.add_argument("-p",help="path of per function seed dir",required=True)
   
-  args = parser.parse_args()
-  
-  wkdir_path = os.path.realpath(args.w)
-  aflpp_path = os.path.realpath(args.a)
-  executable_name = args.x
-  per_func_seed_dir = os.path.realpath(args.p)
-  print(wkdir_path + " " + aflpp_path + " " + executable_name + " " + per_func_seed_dir)
-  
-  os.chdir(wkdir_path)
-   
-  return_code = execute_aflpp(aflpp_path,executable_name,per_func_seed_dir,False)
-  print("RETURN CODE = " , return_code,type(return_code))
-  
-  if __name__ == "__main__":
-    main()
-  
-  
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-w",help="path of working dir",required=True)
+    parser.add_argument("-a",help="path of afl++",required=True)
+    parser.add_argument("-x",help="name of executable",required=True)
+    parser.add_argument("-p",help="path of per function seed dir",required=True)
+
+    args = parser.parse_args()
+
+    wkdir_path = os.path.realpath(args.w)
+    aflpp_path = os.path.realpath(args.a)
+    executable_name = args.x
+    per_func_seed_dir = os.path.realpath(args.p)
+    print(wkdir_path + " " + aflpp_path + " " + executable_name + " " + per_func_seed_dir)
+
+    os.chdir(wkdir_path)
+
+    return_code = execute_aflpp(aflpp_path,executable_name,per_func_seed_dir,False)
+    print("RETURN CODE = " , return_code,type(return_code))
+
+    if __name__ == "__main__":
+      main()
