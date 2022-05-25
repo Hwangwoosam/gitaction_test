@@ -44,7 +44,10 @@ jobs:
           cd test/cJSON
           CC=../../AFLplusplus/afl-cc make
       
-      - name: Run a afl-fuzz
-        run: |
+      - name: seed selection
+        run: 
           python getFuncName.py ./code_change ./test/cJSON/seed ./test/per_func_seed
+      
+      - name: run AFL++
+        run:
           python script.py -w ./test/cJSON -a ./AFLplusplus -x ./test/cJSON/cJSON_example -p ./new_seed_dir
