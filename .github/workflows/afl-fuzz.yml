@@ -20,6 +20,7 @@ jobs:
   job_1:
     name: check code change
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -50,7 +51,5 @@ jobs:
       
       - name: run AFL++
         run: |
-           ls
-           cd test/cJSON
-           ls
+           ./AFLplusplus/afl-fuzz -i new_seed_dir -o local_mode ./test/cJSON/cJSON_example
 #          python script.py -w ./test/cJSON -a ./AFLplusplus -x ./test/cJSON/cJSON_example -p ./new_seed_dir
