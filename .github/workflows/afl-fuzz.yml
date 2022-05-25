@@ -38,7 +38,7 @@ jobs:
       - uses: technote-space/get-diff-action@v4
       
       - name: print run_id
-        run: echo '${{github.run_id}}'
+        run: echo '${{GITHUB_WORKFLOW}}'
         
       - name: execute git diff
         run: 
