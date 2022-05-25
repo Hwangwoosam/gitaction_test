@@ -20,7 +20,7 @@ jobs:
   job_1:
     name: check code change
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
