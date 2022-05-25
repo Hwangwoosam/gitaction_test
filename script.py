@@ -49,6 +49,7 @@ def main () :
   aflpp_path = os.path.realpath(args.a)
   executable_name = args.x
   per_func_seed_dir = os.path.realpath(args.p)
+  print(wkdir_path + " " + aflpp_path + " " + executable_name + " " + per_func_seed_dir)
   
   os.chdir(wkdir_path)
    
