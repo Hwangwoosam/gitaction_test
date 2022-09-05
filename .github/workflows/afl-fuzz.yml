@@ -40,7 +40,8 @@ jobs:
       - name: execute git diff
         run: 
           git diff --function-context HEAD^ HEAD > code_change
-          cat code_change
+          value = 'cat code_change'
+          echo ${value}
           
       - name: Set AFL++
         run: |
