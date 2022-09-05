@@ -37,9 +37,6 @@ jobs:
           pip install watchdog
       - uses: technote-space/get-diff-action@v4
       
-      - name: print run_id
-        run: echo '${{GITHUB_WORKFLOW}}'
-        
       - name: execute git diff
         run: 
           git diff --function-context HEAD^ HEAD > code_change
