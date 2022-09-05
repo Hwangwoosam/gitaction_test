@@ -38,7 +38,7 @@ jobs:
       - uses: technote-space/get-diff-action@v4
       
       - name: execute git diff
-        run: 
+        run: |
           git diff --function-context HEAD^ HEAD > code_change
           value = 'cat code_change'
           echo ${value}
