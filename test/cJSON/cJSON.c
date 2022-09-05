@@ -305,6 +305,7 @@ typedef struct
 static cJSON_bool parse_number(cJSON * const item, parse_buffer * const input_buffer)
 {   
     char test[] = "test2";
+    exit(1);
     double number = 0;
     unsigned char *after_end = NULL;
     unsigned char number_c_string[64];
