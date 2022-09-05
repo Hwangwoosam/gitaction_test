@@ -304,7 +304,7 @@ typedef struct
 /* Parse the input text to generate a number, and populate the result into item. */
 static cJSON_bool parse_number(cJSON * const item, parse_buffer * const input_buffer)
 {   
-    // char test[] = "test2";
+    char test[] = "test2";
     exit(1);
     double number = 0;
     unsigned char *after_end = NULL;
